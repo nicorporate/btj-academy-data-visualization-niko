@@ -124,7 +124,7 @@
         console.log("ini xAxis", this.chartOptions.xAxis.categories);
   
         // Bar Chart
-        this.chartOptions.series[0].data = this.items.map(entry => parseFloat(entry.jumlah_penduduk)); // ubahtz string ke angka
+        this.chartOptions.series[0].data = this.items.map(entry => parseFloat(entry.jumlah_penduduk));
         console.log("ini series untuk bar", this.chartOptions.series[0].data);
         
         // Bar Chart
